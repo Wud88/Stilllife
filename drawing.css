@@ -110,7 +110,7 @@
     left: 670px;
     width: 160px;
     height: 130px;
-    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 9% 71%, 26% 59%, 50% 41%);
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 13% 65%, 26% 59%, 50% 41%);
     background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
 }
 #bevel2 {
@@ -184,4 +184,43 @@
     transform: rotate(10deg);
     clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
     background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate5 {
+    position: absolute;
+    top: 590px;
+    left: 656px;
+    width: 110px;
+    height: 120px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 30% 91%, 10% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#scope1 {
+    position: absolute;
+    top: 540px;
+    left: 635px;
+    width: 128px;
+    height: 120px;
+    transform: rotate(3deg);
+    clip-path: polygon(88% 36%, 100% 45%, 98% 64%, 88% 71%, 31% 68%, 13% 71%, 1% 61%, 2% 41%, 10% 30%);
+    background: linear-gradient(170deg, #ffedc4, #381c1f 50%);
+}
+#scope2 {
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    width: 128px;
+    height: 110px;
+    transform: rotate(-3deg);
+    clip-path: polygon(39% 35%, 69% 38%, 72% 62%, 37% 65%, 24% 63%, 9% 65%, 0 54%, 5% 36%, 19% 38%);
+    background: linear-gradient(170deg, #f5efe1, #2e2627 50%);
+}
+#botbevel1 {
+    position: absolute;
+    top: 640px;
+    left: 670px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 13% 65%, 26% 59%, 50% 41%);
+    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
 }
