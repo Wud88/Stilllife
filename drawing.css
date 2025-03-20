@@ -775,3 +775,42 @@ body{
     clip-path: polygon(18% 87%, 10% 84%, 8% 77%, 16% 68%, 14% 57%, 21% 51%, 33% 50%, 39% 36%, 54% 29%, 69% 32%, 84% 53%, 83% 60%, 93% 64%, 97% 73%, 92% 83%, 76% 90%, 16% 95%, 18% 88%, 18% 88%, 19% 86%);
     background: linear-gradient(170deg, #85a854 40%, #366e38 70%);
 }
+#chim1 {
+    position: absolute;
+    top: 210px;
+    left: 1098px;
+    width: 40px;
+    height: 230px;
+    rotate: 8deg;
+    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+}
+#chim2 {
+    position: absolute;
+    top: 320px;
+    left: 1080px;
+    width: 70px;
+    height: 50px;
+    rotate: 8deg;
+    clip-path: polygon(50% 0%, 78% 6%, 95% 24%, 99% 40%, 76% 40%, 50% 40%, 26% 40%, 2% 39%, 6% 23%, 24% 6%);
+    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+}
+#chim3 {
+    position: absolute;
+    top: 200px;
+    left: 1096px;
+    width: 70px;
+    height: 50px;
+    rotate: 8deg;
+    clip-path: polygon(50% 0%, 78% 6%, 95% 24%, 99% 40%, 76% 40%, 50% 40%, 26% 40%, 2% 39%, 6% 23%, 24% 6%);
+    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+}
+#chim4 {
+    position: absolute;
+    top: 240px;
+    left: 1090px;
+    width: 70px;
+    height: 50px;
+    rotate: 8deg;
+    clip-path: polygon(51% 3%, 77% 8%, 95% 24%, 87% 33%, 75% 31%, 51% 29%, 26% 33%, 12% 33%, 6% 23%, 24% 8%);
+    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+}
