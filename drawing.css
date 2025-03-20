@@ -70,7 +70,7 @@ body{
     left: 820px;
     width: 100px;
     height: 95px;
-    background: linear-gradient(-15deg, #373b29 10%, #808555, #333b29);
+    background: linear-gradient(-5deg, #373b29 10%, #808555, #333b29 90%);
     clip-path: polygon(100% 0, 94% 100%, 24% 100%, 0 0, 54% 13%);
 }
 #fan2 {
@@ -79,7 +79,7 @@ body{
     left: 900px;
     width: 120px;
     height: 100px;
-    background: linear-gradient(-20deg, #373b29 20%, #808555, #333b29);
+    background: linear-gradient(-5deg, #373b29 20%, #808555, #333b29 90%);
     clip-path: polygon(100% 0, 79% 100%, 20% 95%, 24% 0, 60% 13%);
 }
 #fan3 {
@@ -88,7 +88,7 @@ body{
     left: 980px;
     width: 120px;
     height: 115px;
-    background: linear-gradient(-30deg, #373b29 30%, #808555, #333b29);
+    background: linear-gradient(3deg, #373b29 20%, #808555, #333b29 90%);
     clip-path: polygon(100% 18%, 61% 95%, 20% 89%, 38% 0, 66% 18%);
 }
 #fan4 {
@@ -97,7 +97,7 @@ body{
     left: 1060px;
     width: 120px;
     height: 115px;
-    background: linear-gradient(-30deg, #373b29 40%, #808555, #333b29);
+    background: linear-gradient(13deg, #373b29 20%, #808555, #333b29 80%);
     clip-path: polygon(100% 49%, 36% 98%, 3% 88%, 40% 10%, 57% 36%);
 }
 #bevel0 {
