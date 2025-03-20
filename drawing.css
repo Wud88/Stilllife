@@ -584,6 +584,19 @@ body{
     clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
     background: #946e53
 }
+#house7 {
+    position: absolute;
+    top: 435px;
+    left: 915px;
+    width: 75px;
+    height: 90px;
+    rotate: 4deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: #946e53
+}
+
+
+
 #housewood {
     position: absolute;
     top: 440px;
@@ -813,4 +826,33 @@ body{
     rotate: 8deg;
     clip-path: polygon(51% 3%, 77% 8%, 95% 24%, 87% 33%, 75% 31%, 51% 29%, 26% 33%, 12% 33%, 6% 23%, 24% 8%);
     background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+}
+#chim5 {
+    position: absolute;
+    top: 260px;
+    left: 1036px;
+    width: 23px;
+    height: 55px;
+    rotate: 5deg;
+    background: linear-gradient(90deg, #ad9590 10%, #5b677a 40%, #121821 90%);
+}
+#chim6 {
+    position: absolute;
+    top: 222px;
+    left: 1032px;
+    width: 40px;
+    height: 45px;
+    rotate: 5deg;
+    clip-path: polygon(49% 19%, 80% 24%, 93% 40%, 88% 68%, 75% 90%, 50% 100%, 22% 90%, 11% 68%, 5% 40%, 19% 24%);
+    background: linear-gradient(90deg, #ad9590 10%, #5b677a 40%, #121821 90%);
+}
+#chim7 {
+    position: absolute;
+    top: 216px;
+    left: 1033px;
+    width: 40px;
+    height: 20px;
+    rotate: 5deg;
+    clip-path: polygon(49% 19%, 80% 24%, 93% 40%, 88% 68%, 75% 90%, 50% 100%, 22% 90%, 11% 68%, 5% 40%, 19% 24%);
+    background: linear-gradient(90deg, #ad9590 10%, #5b677a 30%, #121821 90%);
 }
