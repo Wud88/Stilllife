@@ -1,10 +1,10 @@
 #bottom {
     position: absolute;
     top: 545px;
-    left: 660px;
-    width: 500px;
+    left: 670px;
+    width: 490px;
     height: 250px;
-    background: #4d1c20;
+    background: #240e0f;
     border-radius: 300px / 200px;
     transform: rotate(5deg);
   }
@@ -24,16 +24,164 @@
     left: 760px;
     width: 300px;
     height: 250px;
-    background: #49596b;
+    background: #635e69;
     border-radius: 400px / 300px;
     transform: rotate(-2deg);
 }
-#fan {
+#toplip {
     position: absolute;
-    top: 300px
-
+    top: 350px;
+    left: 740px;
+    width: 350px;
+    height: 100px;
+    background: #a6847e;
+    border-radius: 60px 30px 0px 0px;
+    transform: rotate(-2deg);
+}
+#toplipshadow {
+    position: absolute;
+    top: 385px;
+    left: 735px;
+    width: 360px;
+    height: 120px;
+    background: #473533;
+    border-radius: 800px / 400px;
+    transform: rotate(-2deg);
+}
+#midshadow {
+    position: absolute;
+    top: 510px;
+    left: 748px;
+    width: 340px;
+    height: 120px;
+    background: #473533;
+    border-radius: 800px / 400px;
+    transform: rotate(-1deg);
+}
+#fan1 {
+    position: absolute;
+    top: 530px;
+    left: 820px;
     width: 100px;
-    height: 100px:
-
-
+    height: 95px;
+    background: #707855;
+    clip-path: polygon(100% 0, 94% 100%, 24% 100%, 0 0, 54% 13%);
+}
+#fan2 {
+    position: absolute;
+    top: 530px;
+    left: 900px;
+    width: 120px;
+    height: 100px;
+    background: #707855;
+    clip-path: polygon(100% 0, 79% 100%, 20% 95%, 24% 0, 60% 13%);
+}
+#fan3 {
+    position: absolute;
+    top: 530px;
+    left: 980px;
+    width: 120px;
+    height: 115px;
+    background: #707855;
+    clip-path: polygon(100% 18%, 61% 95%, 20% 89%, 38% 0, 66% 18%);
+}
+#fan4 {
+    position: absolute;
+    top: 540px;
+    left: 1060px;
+    width: 120px;
+    height: 115px;
+    background: #707855;
+    clip-path: polygon(100% 49%, 36% 98%, 3% 88%, 40% 10%, 57% 36%);
+}
+#bevel0 {
+    position: absolute;
+    top: 610px;
+    left: 660px;
+    width: 160px;
+    height: 130px;
+    transform: rotate(10deg);
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 95%, 10% 86%, 9% 71%, 26% 59%, 50% 41%);
+    background: linear-gradient(140deg, #472428 50%, #5c9cd1);
+}
+#bevel1 {
+    position: absolute;
+    top: 640px;
+    left: 670px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 9% 71%, 26% 59%, 50% 41%);
+    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+}
+#bevel2 {
+    position: absolute;
+    top: 660px;
+    left: 700px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 34% 91%, 10% 86%, 10% 65%, 26% 59%, 50% 41%);
+    transform: skewX(10deg);
+    transform: rotate(-10deg);
+    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+}
+#bevel3 {
+    position: absolute;
+    top: 668px;
+    left: 735px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 9% 71%, 26% 59%, 50% 41%);
+    transform: skewX(10deg);
+    transform: rotate(-20deg);
+    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+}
+#frontplate0 {
+    position: absolute;
+    top: 540px;
+    left: 700px;
+    width: 100px;
+    height: 80px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 60%);
+}
+#frontplate1 {
+    position: absolute;
+    top: 545px;
+    left: 764px;
+    width: 70px;
+    height: 60px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate2 {
+    position: absolute;
+    top: 575px;
+    left: 760px;
+    width: 50px;
+    height: 45px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate3 {
+    position: absolute;
+    top: 575px;
+    left: 795px;
+    width: 60px;
+    height: 40px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate4 {
+    position: absolute;
+    top: 595px;
+    left: 730px;
+    width: 130px;
+    height: 100px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
 }
