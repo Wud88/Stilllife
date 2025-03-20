@@ -102,7 +102,7 @@
     height: 130px;
     transform: rotate(10deg);
     clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 95%, 10% 86%, 9% 71%, 26% 59%, 50% 41%);
-    background: linear-gradient(140deg, #472428 50%, #5c9cd1);
+    background: linear-gradient(140deg, #9c5d5d, #472428 50%, #5c9cd1);
 }
 #bevel1 {
     position: absolute;
@@ -111,7 +111,7 @@
     width: 160px;
     height: 130px;
     clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 13% 65%, 26% 59%, 50% 41%);
-    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+    background: linear-gradient(140deg, #9c5d5d, #381c1f 50%, #5c9cd1);
 }
 #bevel2 {
     position: absolute;
@@ -218,9 +218,68 @@
 #botbevel1 {
     position: absolute;
     top: 640px;
-    left: 670px;
-    width: 160px;
-    height: 130px;
-    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 13% 65%, 26% 59%, 50% 41%);
-    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+    left: 820px;
+    width: 240px;
+    height: 100px;
+    transform: rotate(5deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg,#9c5d5d, #331b1e 40%, #5c9cd1);
+}
+#botbevel2 {
+    position: absolute;
+    top: 655px;
+    left: 815px;
+    width: 256px;
+    height: 120px;
+    transform: rotate(7deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#botbevel3 {
+    position: absolute;
+    top: 673px;
+    left: 810px;
+    width: 230px;
+    height: 138px;
+    transform: rotate(7deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#botbevel4 {
+    position: absolute;
+    top: 703px;
+    left: 800px;
+    width: 200px;
+    height: 145px;
+    transform: rotate(2deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#botbevel5 {
+    position: absolute;
+    top: 700px;
+    left: 905px;
+    width: 120px;
+    height: 145px;
+    transform: rotate(15deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#gear {
+    position: absolute;
+    top: 700px;
+    left: 815px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #2b2122;
+}
+#gear {
+    position: absolute;
+    top: 700px;
+    left: 815px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #2b2122;
 }
