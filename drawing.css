@@ -16,10 +16,10 @@ body{
 #mid {
     position: absolute;
     top: 420px;
-    left: 730px;
-    width: 380px;
+    left: 745px;
+    width: 330px;
     height: 170px;
-    background: #9ea5ad;
+    background: #474d5e;
     transform: rotate(2deg);
 }
 #top {
@@ -70,7 +70,7 @@ body{
     left: 820px;
     width: 100px;
     height: 95px;
-    background: linear-gradient(-5deg, #373b29 10%, #808555, #333b29 90%);
+    background: linear-gradient(84deg, #373b29 10%, #808555, #333b29 90%);
     clip-path: polygon(100% 0, 94% 100%, 24% 100%, 0 0, 54% 13%);
 }
 #fan2 {
@@ -79,7 +79,7 @@ body{
     left: 900px;
     width: 120px;
     height: 100px;
-    background: linear-gradient(-5deg, #373b29 20%, #808555, #333b29 90%);
+    background: linear-gradient(100deg, #373b29 20%, #808555, #333b29 90%);
     clip-path: polygon(100% 0, 79% 100%, 20% 95%, 24% 0, 60% 13%);
 }
 #fan3 {
@@ -88,7 +88,7 @@ body{
     left: 980px;
     width: 120px;
     height: 115px;
-    background: linear-gradient(3deg, #373b29 20%, #808555, #333b29 90%);
+    background: linear-gradient(110deg, #373b29 20%, #808555, #333b29 90%);
     clip-path: polygon(100% 18%, 61% 95%, 20% 89%, 38% 0, 66% 18%);
 }
 #fan4 {
@@ -97,7 +97,7 @@ body{
     left: 1060px;
     width: 120px;
     height: 115px;
-    background: linear-gradient(13deg, #373b29 20%, #808555, #333b29 80%);
+    background: linear-gradient(130deg, #373b29 20%, #808555, #333b29 80%);
     clip-path: polygon(100% 49%, 36% 98%, 3% 88%, 40% 10%, 57% 36%);
 }
 #bevel0 {
@@ -584,17 +584,47 @@ body{
     clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
     background: #946e53
 }
-#house7 {
+#house8 {
     position: absolute;
-    top: 435px;
-    left: 915px;
-    width: 75px;
+    top: 420px;
+    left: 715px;
+    width: 130px;
     height: 90px;
-    rotate: 4deg;
+    rotate: -1deg;
     clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
-    background: #946e53
+    background: linear-gradient(90deg, #a8856c 40%, #3d332c 45%)
 }
-
+#house9 {
+    position: absolute;
+    top: 492px;
+    left: 1010px;
+    width: 300px;
+    height: 70px;
+    rotate: 7deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: #75736a
+}
+#house10 {
+    position: absolute;
+    top: 510px;
+    left: 1010px;
+    width: 150px;
+    height: 80px;
+    rotate: 7deg;
+    clip-path: polygon(0% 15%, 0 0, 16% 1%, 59% 2%, 63% 39%, 95% 40%, 95% 85%, 51% 85%, 0% 85%);
+    background: #78484b
+}
+#house12 {
+    position: absolute;
+    top: 405px;
+    left: 696px;
+    width: 100px;
+    height: 90px;
+    rotate: -1deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: linear-gradient(90deg, #557a82 40%, #333f47 45%)
+    
+}
 
 
 #housewood {
@@ -795,7 +825,7 @@ body{
     width: 40px;
     height: 230px;
     rotate: 8deg;
-    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
 }
 #chim2 {
     position: absolute;
@@ -805,7 +835,7 @@ body{
     height: 50px;
     rotate: 8deg;
     clip-path: polygon(50% 0%, 78% 6%, 95% 24%, 99% 40%, 76% 40%, 50% 40%, 26% 40%, 2% 39%, 6% 23%, 24% 6%);
-    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
 }
 #chim3 {
     position: absolute;
@@ -815,7 +845,7 @@ body{
     height: 50px;
     rotate: 8deg;
     clip-path: polygon(50% 0%, 78% 6%, 95% 24%, 99% 40%, 76% 40%, 50% 40%, 26% 40%, 2% 39%, 6% 23%, 24% 6%);
-    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
 }
 #chim4 {
     position: absolute;
@@ -825,7 +855,7 @@ body{
     height: 50px;
     rotate: 8deg;
     clip-path: polygon(51% 3%, 77% 8%, 95% 24%, 87% 33%, 75% 31%, 51% 29%, 26% 33%, 12% 33%, 6% 23%, 24% 8%);
-    background: linear-gradient(90deg, #945658 40%, #732e30 70%, #361415 90%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
 }
 #chim5 {
     position: absolute;
